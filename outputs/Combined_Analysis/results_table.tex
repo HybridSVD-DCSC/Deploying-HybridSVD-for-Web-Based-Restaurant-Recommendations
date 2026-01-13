@@ -1,0 +1,23 @@
+
+\begin{table}[h]
+    \centering
+    \caption{Performance comparison of all models (Best scores in bold).}
+    \label{tab:model_results}
+    \begin{tabular}{l l c c c}
+        \toprule
+        \textbf{Dataset} & \textbf{Model} & \textbf{Hit@10} & \textbf{NDCG@10} & \textbf{Coverage} \\
+        \midrule
+        \textbf{DC Core 20} & Random & 0.0026 & 0.0016 & \textbf{1.0000} \\
+         & Most Popular & 0.0259 & 0.0135 & 0.0067 \\
+         & PureSVD & 0.0588 & 0.0282 & 0.1501 \\
+         & Category & 0.0603 & 0.0308 & 0.2359 \\
+         & Description & 0.0617 & 0.0302 & 0.1763 \\
+         & Geolocation & \textbf{0.0645} & \textbf{0.0320} & 0.3795 \\
+        \addlinespace
+        \textbf{ml-100k} & Random & 0.0053 & 0.0041 & \textbf{0.9941} \\
+         & Most Popular & 0.0838 & 0.0424 & 0.0541 \\
+         & PureSVD & 0.1506 & 0.0788 & 0.3910 \\
+         & Genres & \textbf{0.1516} & \textbf{0.0788} & 0.4082 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
