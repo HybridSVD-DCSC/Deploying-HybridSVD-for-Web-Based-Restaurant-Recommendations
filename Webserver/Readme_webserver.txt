@@ -1,1 +1,0 @@
-Currently the are no photos in the webserver PyCharm project to decrease file size. These have been sent separately so that not everyone had to download them. To make the photo feature word add the folder called "Photos" containing them to the "Data" folder of the project.
