@@ -32,6 +32,6 @@ A web application serving the recommendations to end-users.
 
 ## 📖 Documentation & User Manuals
 
-Detailed instructions on how to install, configure, and run each component can be found in the **Manuals** folder.
+Detailed instructions on how to install, configure, and run each component can be found in the **Manuals** file.
 
 * **
